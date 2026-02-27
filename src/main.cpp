@@ -1,9 +1,11 @@
 #include <Arduino.h>
+#include <Servo.h>
+
+Servo myServo;
+
 void setup() {
-// write your initialization code here
+    myServo.attach(5);   // Attach servo to pin 5
 }
 
-
 void loop() {
-// write your code here
 }
