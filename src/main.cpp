@@ -4,8 +4,9 @@
 Servo myServo;
 
 void setup() {
-    myServo.attach(5);   // Attach servo to pin 5
+    myServo.attach(5);
 }
 
 void loop() {
+    myServo.write(0);
 }
